@@ -39,8 +39,8 @@ class MasterViewController: UITableViewController {
             UIImage(named: "bikes.jpg")!,
             UIImage(named: "googles.png")!]
 
-        ListOfFavs = ["Mall","Biking", "Google"]
-        FavDetails = ["http://www.shopcherryvalemall.com/","http://www.bicycling.com", "http://www.google.com"]
+        ListOfFavs = ["Janesville Mall","Clinton Biking", "Google Search"]
+        FavDetails = ["http://www.janesvillemall.com/","http://www.bicycling.com", "http://www.google.com"]
         
         if let split = self.splitViewController {
             let controllers = split.viewControllers
